@@ -10,36 +10,6 @@ AWS CLI: For interacting with AWS services.
 Docker: For containerizing applications.
 Terraform: For infrastructure as code.
 Node.js: Ensure compatibility with M1 chip, preferably use Node.js version 16 or above.
-aws-ecs-fargate-deployment/
-Repository Structure
-│
-├── reactjs/
-│   ├── Dockerfile
-│   ├── README.md
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── public/
-│   └── src/
-│
-├── strapi/
-│   ├── Dockerfile
-│   ├── README.md
-│   ├── config/
-│   ├── database/
-│   ├── node_modules/
-│   ├── public/
-│   ├── src/
-│   ├── types/
-│   ├── yarn.lock
-│   └── uploads/
-│
-└── terraform/
-    ├── main.tf
-    ├── outputs.tf
-    ├── variables.tf
-    ├── terraform.tfstate
-    └── terraform.tfstate.backup
-    Steps
 
 1. Cloning the Repository
 First, clone the repository to your local machine.
